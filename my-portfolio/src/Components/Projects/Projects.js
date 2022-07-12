@@ -32,6 +32,8 @@ const Projects = () => {
       <div className="title-section">
         <h1>""</h1>
       </div>
+      <div classname="rain"></div>
+  <div classname="lightning"></div>
       <ScrollableTabsButtonAuto/>
       <Logo />
       <h1>"" </h1>

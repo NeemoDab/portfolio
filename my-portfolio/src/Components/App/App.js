@@ -2,10 +2,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../Home/Home";
 import Aboutme from "../Aboutme/Aboutme";
 import Projects from "../Projects/Projects";
+import "./App.css" 
 
 function App() {
   return (
+    <>
     <div className="App">
+    <div className="rain"></div>
+  <div className="lightening"></div>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -14,6 +18,7 @@ function App() {
         </Routes>
       </Router>
     </div>
+    </>
   );
 }
 

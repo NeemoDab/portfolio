@@ -1,12 +1,12 @@
 /* @import url('http://fonts.cdnfonts.com/css/proggy-clean'); */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 .body {
-  color: #e3f2fd;
+  /* color: #e3f2fd; */
 }
 
 .logo {
-  width: 100%;
-  height: auto;
+  /* width: 100%; */
+  /* height: auto; */
 }
 .text-bar{
   /* margin-top:100px; */
@@ -17,14 +17,12 @@
   flex-direction:column;
   justify-content: space-between;
   /* background-color: #e3f2fd; */
-  background-image: url("/Users/neemo/Desktop/write-code-everyday~/Portfolio/portfolio/my-portfolio/src/assets/Screenshot 2022-07-12 at 14.08.16.png");
-  height: 100vh;
   width: auto;
 }
 
 .title-section {
   display: none;
-  background-color: #B1D4E0;
+  /* background-color: #B1D4E0; */
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -42,7 +40,7 @@
   border-radius:10px;
   text-align: center;
   border: 3px solid #0C2D48;
-  background-color: #B1D4E0;
+  /* background-color: #B1D4E0; */
   height: 30vh;
   width: 30vw;
   display: flex;
@@ -64,7 +62,7 @@
   border-radius:10px;
   text-align: center;
   border: 3px solid #0C2D48;
-  background-color: #B1D4E0;
+  /* background-color: #B1D4E0; */
   height: 30vh;
   width: 30vw;
   display: flex;
@@ -86,7 +84,7 @@
    }
    .title-section {
      display: block;
-     background-color: #0C2D48;
+     /* background-color: #0C2D48; */
      color: #B1D4E0;
      font-size: 3vw;
    }

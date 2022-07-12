@@ -39,7 +39,7 @@ const Home = (props) => {
         {/* <PersistentDrawerRight/> */}
         <ScrollableTabsButtonAuto/>
         </div>
-        <div className="cards">
+        { <div className="cards">
         <Card
           className="wellbeing-section"
           title="DATA"
@@ -54,14 +54,14 @@ const Home = (props) => {
           path="Aboutme"
           navigate={navigate}
         />
+      </div> }
+      {/* <div className="footer-class"> */}
+        {/* <Footer /> */}
+        {/* <p className="quote-paragraph"> */}
+          {/* {quote} {author} */}
+        {/* </p> */}
       </div>
-      <div className="footer-class">
-        <Footer />
-        <p className="quote-paragraph">
-          {quote} {author}
-        </p>
-      </div>
-    </div>
+    // </div>
   );
 };
 export default Home;
