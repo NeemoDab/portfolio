@@ -1,6 +1,5 @@
 /* @import url('http://fonts.cdnfonts.com/css/proggy-clean'); */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-
 .body {
   color: #e3f2fd;
 }
@@ -9,12 +8,16 @@
   width: 100%;
   height: auto;
 }
+.text-bar{
+  /* margin-top:100px; */
+}
 
 .Home {
   display:flex;
   flex-direction:column;
   justify-content: space-between;
-  background-color: #e3f2fd;
+  /* background-color: #e3f2fd; */
+  background-image: url("/Users/neemo/Desktop/write-code-everyday~/Portfolio/portfolio/my-portfolio/src/assets/Screenshot 2022-07-12 at 14.08.16.png");
   height: 100vh;
   width: auto;
 }

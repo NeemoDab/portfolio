@@ -3,6 +3,7 @@ import Section from "../Section/Section";
 import "./Projects.css";
 import Footer from "../Footer/Footer";
 import Logo from "../Logo/Logo";
+import ScrollableTabsButtonAuto from "../Nav/Nav.js";
 
 const Projects = () => {
   const [quote, setQuote] = useState("");
@@ -31,6 +32,7 @@ const Projects = () => {
       <div className="title-section">
         <h1>""</h1>
       </div>
+      <ScrollableTabsButtonAuto/>
       <Logo />
       <h1>"" </h1>
       <Section

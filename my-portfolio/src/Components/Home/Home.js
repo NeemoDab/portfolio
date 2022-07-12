@@ -3,7 +3,9 @@ import { useEffect, useState } from "react";
 import "./Home.css";
 import Card from "../Card/Card";
 import Footer from "../Footer/Footer";
-import Logo from "../Logo/Logo";
+import ScrollableTabsButtonAuto from "../Nav/Nav.js";
+// import PersistentDrawerRight from "../Textbar/Textbar";
+// import Logo from "../Logo/Logo.js";
 
 const Home = (props) => {
   const [quote, setQuote] = useState("");
@@ -32,8 +34,12 @@ const Home = (props) => {
       <div className="title-section">
         <h1> DATA</h1>
       </div>
-      {/* <Logo /> */}
-      <div className="cards">
+      {/* <Logo /> */}  
+        <div className="text-bar">
+        {/* <PersistentDrawerRight/> */}
+        <ScrollableTabsButtonAuto/>
+        </div>
+        <div className="cards">
         <Card
           className="wellbeing-section"
           title="DATA"
