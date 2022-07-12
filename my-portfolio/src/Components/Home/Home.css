@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 .body {
-  color: blue;
+  color: #e3f2fd;
 }
 
 .logo {
@@ -14,7 +14,7 @@
   display:flex;
   flex-direction:column;
   justify-content: space-between;
-  background-color: #2E8BC0;
+  background-color: #e3f2fd;
   height: 100vh;
   width: auto;
 }

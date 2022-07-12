@@ -30,22 +30,22 @@ const Home = (props) => {
   return (
     <div className="Home">
       <div className="title-section">
-        <h1> FOO-D FOR THOUGHT</h1>
+        <h1> DATA</h1>
       </div>
-      <Logo />
+      {/* <Logo /> */}
       <div className="cards">
         <Card
           className="wellbeing-section"
-          title="Wellbeing"
-          aboutSection="Click here if you'd like some useful resources on how to manage your mental wellbeing as a developer!"
-          path="/wellbeing"
+          title="DATA"
+          aboutSection="DATA"
+          path="/Projects"
           navigate={navigate}
         />
         <Card
           className="technical-section"
-          title="Technical"
-          aboutSection="Click here if you wanted some resources to help with your journey in becoming a full-stack developer!"
-          path="technical"
+          title="DATA"
+          aboutSection="DATA"
+          path="Aboutme"
           navigate={navigate}
         />
       </div>

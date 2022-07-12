@@ -3,7 +3,7 @@ const Logo = () => {
     <a href="http://localhost:3000/">
       <img
         className="logo"
-        src="https://i.imgur.com/FRqvO8t.png"
+        src=""
         alt="app-logo"
       />
     </a>
