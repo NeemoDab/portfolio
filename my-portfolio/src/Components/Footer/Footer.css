@@ -1,0 +1,22 @@
+.footer-class {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+        text-align: center;
+        font-size:20px;         
+        bottom:0;
+        height:60px;   /* Height of the footer */
+
+        background:#0C2D48;
+      }
+
+      .quote-paragraph{
+        color:#B1D4E0;
+        font-family: Permanent Marker; 
+        font-weight:bolder;
+        font-style:italic;
+
+        /* text-transform:uppercase; */
+      }
