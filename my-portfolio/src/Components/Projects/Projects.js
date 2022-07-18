@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import Section from "../Section/Section";
-import "../Wellbeing/Wellbeing.css";
+import "./Projects.css";
 import Footer from "../Footer/Footer";
 import Logo from "../Logo/Logo";
 
-const Wellbeing = () => {
+
+const Projects = () => {
   const [quote, setQuote] = useState("");
   const [author, setAuthor] = useState("");
 
@@ -29,54 +30,56 @@ const Wellbeing = () => {
   return (
     <div className="wellbeing-div">
       <div className="title-section">
-        <h1> FOO-D FOR THOUGHT</h1>
+        <h1>""</h1>
       </div>
+      <div classname="rain"></div>
+  <div classname="lightning"></div>
       <Logo />
-      <h1> WELLBEING </h1>
+      <h1>"" </h1>
       <Section
-        title="Wellbeing Advice"
-        content="If you are a person who remains busy in work and other matters and pays no attention to your health and wellbeing, you must take a break from the robotic routine and pick healthy habits. According to a psychologist, eating well and exercise gives your body and brain instant benefits of managing stress, depression, and anxiety. True wellbeing comes with balance, constant growth and acceptance."
+        title="DATA"
+        content="DATA"
         className="wellbeing-title"
       />
       <div className="wellbeing-content">
         <div className="wellbeing-links">
           <Section
-            title="Overcoming Imposter Syndrome"
+            title="DATA"
             content={
-              <a href="https://health.clevelandclinic.org/a-psychologist-explains-how-to-deal-with-imposter-syndrome/">
-                IMPOSTER SYNDROME
+              <a href="DATA">
+                
               </a>
             }
           />
           <Section
-            title="Managing Your Stress"
+            title=""
             content={
-              <a href="https://www.helpguide.org/articles/stress/stress-management.htm#:~:text=Effective%20stress%20management%20helps%20you,and%20meet%20challenges%20head%20on.">
-                STRESS MANAGEMENT
+              <a href="">
+                
               </a>
             }
           />
           <Section
-            title="Becoming More Confident & Public Speaking"
+            title="DATA"
             content={
-              <a href="https://www.saintleo.edu/about/stories/blog/9-tips-improve-your-public-speaking-skills">
-                CONFIDENCE & PUBLIC SPEAKING
+              <a href="DATA">
+               
               </a>
             }
           />
           <Section
-            title="Asking For Help"
+            title="DATA "
             content={
-              <a href="https://psyche.co/guides/how-to-ask-for-help-without-discomfort-or-apology">
-                ASKING FOR HELP
+              <a href="">
+                
               </a>
             }
           />
         </div>
         <img
           className="wellbeing-image"
-          src="https://www.zakariamasjid.org.uk/wp-content/uploads/2020/04/improve-mental-wellbeing-at-work-_2640x1980_acf_cropped-1440x1080.jpg"
-          alt="test"
+          src=""
+          alt="DATA"
         />
       </div>
       <div className="footer-class">
@@ -89,4 +92,4 @@ const Wellbeing = () => {
   );
 };
 
-export default Wellbeing;
+export default Projects;

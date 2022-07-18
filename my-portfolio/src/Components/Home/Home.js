@@ -1,9 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "./Home.css";
+import Title from "../Title/Title";
+import Intro from "../Intro/Intro";
 import Card from "../Card/Card";
 import Footer from "../Footer/Footer";
-import Logo from "../Logo/Logo";
+import ScrollableTabsButtonAuto from "../Nav/Nav.js";
+// import PersistentDrawerRight from "../Textbar/Textbar";
+// import Logo from "../Logo/Logo.js";
 
 const Home = (props) => {
   const [quote, setQuote] = useState("");
@@ -28,34 +32,42 @@ const Home = (props) => {
 
   const navigate = useNavigate();
   return (
+    <>
+        <ScrollableTabsButtonAuto/>
+        <Title/>
     <div className="Home">
       <div className="title-section">
-        <h1> FOO-D FOR THOUGHT</h1>
+        <h1> DATA</h1>
       </div>
-      <Logo />
-      <div className="cards">
+      {/* <Logo /> */}  
+        <div className="text-bar">
+        {/* <PersistentDrawerRight/> */}
+        </div>
+        { <div className="cards">
         <Card
           className="wellbeing-section"
-          title="Wellbeing"
-          aboutSection="Click here if you'd like some useful resources on how to manage your mental wellbeing as a developer!"
-          path="/wellbeing"
+          title="DATA"
+          aboutSection="DATA"
+          path="/Projects"
           navigate={navigate}
         />
         <Card
           className="technical-section"
-          title="Technical"
-          aboutSection="Click here if you wanted some resources to help with your journey in becoming a full-stack developer!"
-          path="technical"
+          title="DATA"
+          aboutSection="DATA"
+          path="Aboutme"
           navigate={navigate}
         />
+      </div> }
+      {/* <div className="footer-class"> */}
+        {/* <Footer /> */}
+        {/* <p className="quote-paragraph"> */}
+          {/* {quote} {author} */}
+        {/* </p> */}
       </div>
-      <div className="footer-class">
-        <Footer />
-        <p className="quote-paragraph">
-          {quote} {author}
-        </p>
-      </div>
-    </div>
+        {/* <Intro/> */}
+     {/* </div> */}
+    </>
   );
 };
 export default Home;

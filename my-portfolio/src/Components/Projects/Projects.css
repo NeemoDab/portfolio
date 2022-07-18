@@ -9,8 +9,8 @@
    
 }
 .wellbeing-links {
-  background-color: #b1d4e0;
-  border: 3px solid #0c2d48;
+  /* background-color: #b1d4e0; */
+  /* border: 3px solid #0c2d48; */
   border-radius: 10px;
   font-family: "Roboto Mono", monospace;
   box-shadow: rgba(0, 0, 0, 0.75) 3px 20px 20px;
@@ -21,7 +21,7 @@
 }
 
 a {
-  color: #0c2d48;
+  /* color: #0c2d48; */
 }
 
 img {
@@ -40,7 +40,7 @@ h1 {
 }
 
 .wellbeing-title {
-  background-color: #b1d4e0;
+  /* background-color: #b1d4e0; */
   border: 3px solid #0c2d48;
   border-radius: 10px;
   font-family: "Roboto Mono", monospace;
@@ -52,6 +52,7 @@ h1 {
   margin: 10px 10px;
 }
 .wellbeing-div {
-  background-color: #2e8bc0;
+  /* background-color: #2e8bc0; */
   font-family: "Roboto Mono", monospace;
+  /* background-image: url("/Users/neemo/Desktop/write-code-everyday~/Portfolio/portfolio/my-portfolio/src/assets/Screenshot 2022-07-12 at 14.08.16.png"); */
 }

@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import Section from "../Section/Section";
-import "./Technical.css";
+import "./Aboutme.css";
 import Footer from "../Footer/Footer";
 import Logo from "../Logo/Logo";
+import ScrollableTabsButtonAuto from "../Nav/Nav";
 
-const Technical = (props) => {
+const Aboutme = (props) => {
   const [quote, setQuote] = useState("");
   const [author, setAuthor] = useState("");
 
@@ -30,40 +31,42 @@ const Technical = (props) => {
   return (
     <div className="technical-div">
       <div className="title-section">
-        <h1> FOO-D FOR THOUGHT</h1>
+        <h1> DATA </h1>
       </div>
+      <ScrollableTabsButtonAuto/>
       <Logo />
-      <h1> TECHNICAL </h1>
+      <h1> DATA </h1>
 
       <div className="front-end-div">
         {/* FRONTEND */}
         <Section
-          title="Frontend"
-          content="The front-end of a website is the part that users interact with. Everything that you see when you’re navigating around the Internet, from fonts and colors to dropdown menus and sliders, is a combo of HTML, CSS, and JavaScript being controlled by your computer’s browser."
+          title="DATA "
+          content="What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
           className="front-end-title"
         />
         <div className="front-end-content">
           <div className="front-end-left-content">
             <Section
-              title="HTML"
+              title="DATA "
               content={
-                <a href="https://htmlcheatsheet.com/">HTML CHEATSHEET</a>
+                <a href="DATA ">DATA </a>
               }
               className="html-section"
             />
             <Section
-              title="CSS"
+              title="DATA "
               content={
-                <a href="https://htmlcheatsheet.com/css/">CSS CHEATSHEET</a>
+                <a href="DATA ">DATA </a>
               }
               className="css-section"
             />
           </div>
           <div className="front-end-right-content">
             <Section
-              title="JavaScript"
+              title="DATA "
               content={
-                <a href="https://htmlcheatsheet.com/js/">
+                <a href="DATA ">
                   JAVASCRIPT CHEATSHEET
                 </a>
               }
@@ -71,7 +74,7 @@ const Technical = (props) => {
             />
             <Section
               title="React"
-              content={<a href="https://beta.reactjs.org/">REACT BETA DOCS</a>}
+              content={<a href="DATA ">DATA </a>}
               className="react-section"
             />
           </div>
@@ -80,7 +83,7 @@ const Technical = (props) => {
       {/* BACKEND  */}
       <div className="back-end-div">
         <Section
-          title="Backend"
+          title="DATA "
           content="So what makes the front-end of a website possible? Where is all that data stored? This is where the back-end comes in. The back- end of a website consists of a server, an application, and a database. 
 
 A back-end developer builds and maintains the technology that powers those components which, together, enable the user-facing side of the website to even exist in the first place."
@@ -89,25 +92,25 @@ A back-end developer builds and maintains the technology that powers those compo
         <div className="back-end-content">
           <div className="back-end-left-content">
             <Section
-              title="Express"
+              title="DATA "
               content={
-                <a href="https://expressjs.com/en/starter/installing.html">
-                  EXPRESS DOCS
+                <a href="DATA ">
+                  DATA 
                 </a>
               }
               className="express-section"
             />
             <Section
-              title="Node"
-              content={<a href="https://nodejs.org/en/docs/">NODE DOCS</a>}
+              title="DATA "
+              content={<a href="DATA ">DATA </a>}
               className="node-section"
             />
           </div>
           <div className="back-end-right-content">
             <Section
-              title="PostgreSQL"
+              title="DATA "
               content={
-                <a href="https://sqlbolt.com/">PostgreSQL PRACTICAL LEARNING</a>
+                <a href="https://sqlbolt.com/">DATA </a>
               }
               className="postgresql-section"
             />
@@ -115,7 +118,7 @@ A back-end developer builds and maintains the technology that powers those compo
               title="Heroku"
               content={
                 <a href="https://devcenter.heroku.com/categories/reference">
-                  HEROKU DOCS
+                 DATA 
                 </a>
               }
               className="heroku-section"
@@ -133,4 +136,4 @@ A back-end developer builds and maintains the technology that powers those compo
   );
 };
 
-export default Technical;
+export default Aboutme;
