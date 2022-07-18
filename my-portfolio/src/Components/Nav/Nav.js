@@ -2,6 +2,7 @@ import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
+import "./nav.css"
 
 export default function ScrollableTabsButtonAuto() {
   const [value, setValue] = React.useState(0);
@@ -11,7 +12,7 @@ export default function ScrollableTabsButtonAuto() {
   };
 
   return (
-    <Box sx={{ maxWidth: { xs: 320, sm: 480 }, bgcolor: 'background.paper' }}>
+    <Box sx={{ maxWidth: { xs: 320, sm: 385, }, bgcolor: 'background.paper' }}>
       <Tabs
         value={value}
         onChange={handleChange}
@@ -19,10 +20,9 @@ export default function ScrollableTabsButtonAuto() {
         scrollButtons="auto"
         aria-label="scrollable auto tabs example"
       >
-        <Tab label="Item One" />
-        <Tab label="Item Two" />
-        <Tab label="Item Three" />
-        <Tab label="Item Four" />
+        <Tab label="Home" />
+        <Tab label="About Me" />
+        <Tab label="Projects" />
       </Tabs>
     </Box>
   );

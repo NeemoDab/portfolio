@@ -3,6 +3,7 @@ import Home from "../Home/Home";
 import Aboutme from "../Aboutme/Aboutme";
 import Projects from "../Projects/Projects";
 import "./App.css" 
+import ScrollableTabsButtonAuto from "../Nav/Nav";
 
 function App() {
   return (

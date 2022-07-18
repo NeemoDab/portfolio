@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "./Home.css";
+import Title from "../Title/Title";
+import Intro from "../Intro/Intro";
 import Card from "../Card/Card";
 import Footer from "../Footer/Footer";
 import ScrollableTabsButtonAuto from "../Nav/Nav.js";
@@ -30,6 +32,9 @@ const Home = (props) => {
 
   const navigate = useNavigate();
   return (
+    <>
+        <ScrollableTabsButtonAuto/>
+        <Title/>
     <div className="Home">
       <div className="title-section">
         <h1> DATA</h1>
@@ -37,7 +42,6 @@ const Home = (props) => {
       {/* <Logo /> */}  
         <div className="text-bar">
         {/* <PersistentDrawerRight/> */}
-        <ScrollableTabsButtonAuto/>
         </div>
         { <div className="cards">
         <Card
@@ -61,7 +65,9 @@ const Home = (props) => {
           {/* {quote} {author} */}
         {/* </p> */}
       </div>
-    // </div>
+        {/* <Intro/> */}
+     {/* </div> */}
+    </>
   );
 };
 export default Home;
