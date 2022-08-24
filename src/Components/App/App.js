@@ -1,18 +1,17 @@
 import { Link } from "react-router-dom";
 import "./App.css" 
+// import ResponsiveAppBar from '../Nav/Nav.js';
 
-
-function App() {
+const App = (props) => {
   return (
-    <>
- <nav> <Link to="/Projects">Projects</Link> |{" "}
-        <Link to="/Aboutme">About Me</Link>|{" "}
-        <Link to="/">Home</Link> </nav>
-    <div className="App">
-    <div className="rain"></div>
-  <div className="lightening"></div>
-    </div>
-    <h1>Hi I'm Neemo </h1>
+    <> 
+      <div className="App">
+        <nav>
+          <Link to="/">Home</Link> | <Link to="/about-me">About Me</Link>|{" "}
+          <Link to="/projects">Projects</Link>
+        </nav>
+        <h1>Hi testing </h1>
+      </div>
     </>
   );
 }
